@@ -1,0 +1,47 @@
+/* Form.css */
+.fill-container {
+  width: 400px; /* Adjust width as needed */
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.fill-container h2 {
+  text-align: center;
+}
+
+.fill-container > div {
+  margin-bottom: 10px;
+}
+
+.fill-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.fill-container select,
+.fill-container input[type='text'],
+.fill-container button,
+.fill-container .language-button {
+  width: calc(50% - 5px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.fill-container .action-buttons {
+  text-align: center;
+}
+
+.fill-container button,
+.fill-container .language-button {
+  width: 100%; /* Update width for button and language button */
+}
+
+.fill-container .date-button {
+  width: calc(100% - 10px); /* Adjust width for date button */
+}

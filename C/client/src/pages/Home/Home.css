@@ -1,0 +1,71 @@
+/* Home.css */
+
+/* Background image */
+/* Home.css */
+
+/* Background image */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+/* Home.css */
+
+/* Background image for the home page */
+.seven-buttons-container {
+  /* background-image: url('C:\Users\Teciza\Desktop\C\client\src\images\back.jpg'); Replace 'path/to/your/background/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* Set width to full viewport width */
+  height: 100vh; /* Set height to full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Button styles */
+.button {
+  padding: 20px;
+  margin: 10px; /* Adjust margin as needed */
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+  color: #fff; /* White text color */
+}
+
+.button i {
+  margin-right: 10px;
+}
+
+.button:hover {
+  transform: translateY(-5px); /* Add a slight lift effect on hover */
+}

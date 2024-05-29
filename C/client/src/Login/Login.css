@@ -1,0 +1,94 @@
+/* Add this CSS to your stylesheet */
+
+/* Login.css */
+
+/* Login.css */
+
+/* Login.css */
+
+/* Login.css */
+
+/* Apply background image only to the welcome-container */
+/* .welcome-container {
+  background-image: url('C:\Users\Teciza\Desktop\C\client\src\images\image.png');
+  background-position: center;
+} */
+
+/* Center the content vertically and horizontally */
+/* .welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+} */
+
+/* Style the heading */
+/* .welcome-container h1 {
+  color: #fff; 
+  font-size: 3rem; 
+  font-weight: 700; 
+  text-align: center;
+  margin: 0; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+} */
+
+/* Style the login button */
+/* .get-started-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: 500; 
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+} */
+
+/* .get-started-button:hover {
+  background-color: #45a049; 
+} */
+/* Login.css */
+
+/* Apply background image only to the welcome-container */
+.welcome-container {
+  /* background-image: url('C:\Users\Teciza\Desktop\C\client\src\images\image.png'); Replace 'path/to/your/background/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to 100% of viewport height */
+}
+
+/* Style the heading */
+.welcome-container h1 {
+  color: #fff; /* White text color */
+  font-size: 3rem; /* Increase font size */
+  font-weight: 700; /* Bold font weight */
+  text-align: center;
+  margin: 0; /* Remove margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for emphasis */
+}
+
+/* Style the login button */
+.get-started-button {
+  margin-top: 20px; /* Add spacing between heading and button */
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: 500; /* Medium font weight */
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.get-started-button:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
+

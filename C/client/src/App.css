@@ -1,0 +1,48 @@
+/* WelcomePage.css */
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 200vh;
+  /* background-image: url('C:\Users\Teciza\Desktop\C\client\src\images\image.png'); Replace 'path_to_your_image.jpg' with the path to your cheque image */
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make the content more readable */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 300px;
+  margin-left: 220px;
+  /* margin-bottom: 1rem; */
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: center;
+
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
